@@ -64,7 +64,7 @@ const vscodeWebResources = [
 const buildfile = require('../src/buildfile');
 
 const vscodeWebEntryPoints = _.flatten([
-	buildfile.entrypoint('vs/workbench/workbench.web.api'),
+	buildfile.entrypoint('vs/workbench/workbench.web.main'),
 	buildfile.base,
 	buildfile.workerExtensionHost,
 	buildfile.workerNotebook,
